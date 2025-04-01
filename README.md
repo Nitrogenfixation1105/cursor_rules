@@ -1,14 +1,15 @@
 # cursor_rules
 
-This repository manages templates for Cursor's Global Rules and Project Rules.
+This repository manages templates for Cursor's Project Rules.
 
 ## Setup Instructions
+When you create a new repository, do it as follows.
 
-### All Engineers
-All engineers should download the `.mdc` file from the `Common` directory and set it as their Cursor Global Rules.
+### All Repositories
+Download the `.mdc` file from the `Common` directory and set in `.cursor/rules`.
 
-### Backend Engineers
-Backend engineers should download the `.mdc` file from either the `Rails` or `Python` directory and set it as their Cursor Global Rules.
+### Rails or Python Repositories
+Download the `.mdc` file from either the `Rails` or `Python` directory and set in `.cursor/rules`.
 
-### Frontend Engineers
-Frontend engineers should download the `.mdc` file from the `React` directory and set it as their Cursor Global Rules.
+### React Repositories
+Download the `.mdc` file from the `React` directory and set in `.cursor/rules`.
