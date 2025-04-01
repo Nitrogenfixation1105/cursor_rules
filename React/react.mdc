@@ -4,7 +4,7 @@ globs:
 alwaysApply: false
 ---
 ---
-description: Must read Guideline for this project
+description: Must read Guideline for React project
 globs:
 ---
 // Prefer functional components
