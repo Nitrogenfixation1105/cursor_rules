@@ -1,11 +1,7 @@
 ---
 description: 
 globs: 
-alwaysApply: false
----
----
-description: Must read Guideline for React project
-globs:
+alwaysApply: true
 ---
 // Prefer functional components
 

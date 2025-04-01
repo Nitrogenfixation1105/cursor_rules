@@ -1,12 +1,9 @@
 ---
 description: 
 globs: 
-alwaysApply: false
+alwaysApply: true
 ---
----
-description: Must read Guideline for Ruby on Rails project
-globs:
----
+
 - When possible we always create at least one happy path test to check the functionality we just implimented or fixed. So if I e.g. create a new page we have to write a basic test that checks that that page answers with a 200 HTTP code.
 
 - Always Use bin/rails
