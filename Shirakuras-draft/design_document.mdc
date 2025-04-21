@@ -1,0 +1,41 @@
+---
+description: 設計ドキュメントのルールを定義しています。
+globs: 
+alwaysApply: false
+---
+以下に設計ドキュメントについての共通ルールを記載します。
+
+# ドキュメントファイルの配置
+## レポジトリ
+コードレポジトリ上のドキュメントはmdファイルとして以下に保存される。
+
+- docs
+|-- function_list.md
+|-- functions
+      |-- specs
+      |     |-- functionA_spec_ja.md
+      |     |-- functionA_spec_en.md
+      |     |-- functionA_spec_vn.md
+      |     |-- functionB_spec_ja.md 
+      |     |-- functionB_spec_en.md 
+      |-- architectures
+            |-- functionA_arch_ja.md
+            |-- functionA_arch_en.md
+            |-- functionA_arch_vn.md
+            |-- functionB_arch_ja.md 
+            |-- functionB_arch_en.md 
+
+## Notion
+Notion上の設計ドキュメントは以下に保存される。
+Main page (このページのサブページとして各機能のドキュメントは作成される): https://www.notion.so/conciergeu/1d5eee4fd5028042a752c655631fdcfa?v=1d5eee4fd502803abafe000cb6d1866d
+
+# 記述フォーマット
+* マークダウン形式で記述する。
+* 図はMarmaid記法で記述する。
+
+# その他
+## Githubのアクセス情報
+所有者名：Nitrogenfixation1105
+## レポジトリ名について
+レポジトリ名が不明な場合は、まずレポジトリ名を検索してから次の操作を行なってください。
+

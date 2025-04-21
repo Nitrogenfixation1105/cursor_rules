@@ -1,0 +1,27 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+- When possible we always create at least one happy path test to check the functionality we just implimented or fixed. So if I e.g. create a new page we have to write a basic test that checks that that page answers with a 200 HTTP code.
+
+- Always Use bin/rails
+   - Use `bin/rails` instead of just `rails`
+   - Ensures consistent environment
+   - Uses project-specific binstubs
+
+Modify or create the code as requested. After completing the changes, execute the following commands in the terminal:
+
+1. Run tests to ensure everything still works:
+   ```sh
+   bundle exec rspec
+   ```
+2. Automatically fix and check Ruby style issues:
+   ```sh
+    bundle exec rubocop --format github --autocorrect-all
+    ```
+3. If any tests fail:
+- Analyze the errors and attempt to fix them. It doesn't matter if it is old or new code.
+- Modify the necessary code to resolve the failures.
+- Re-run "bundle exec rspec" to confirm the fix.
