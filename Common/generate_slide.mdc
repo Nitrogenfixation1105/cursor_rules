@@ -1,0 +1,13 @@
+---
+description: マークダウンファイルからmarp形式のファイルとPDF, powerpointのスライドを生成するためのルールです。
+globs: 
+alwaysApply: false
+---
+1. marp形式ファイルの作成
+- 指定のマークダウンファイルをmarp形式にしてマークダウンファイル名に.marpを追加したファイル名で同一のフォルダに保存する。
+    - ex) slide.mdというファイルをmarp形式にしてslide.marp.mdで保存する。
+- 既にmarpファイルがある場合は上書きする。
+
+2. PDF, powerpointファイルの作成
+- 1.で作ったファイルを元にPDFとpowerpointファイルを作成する。これも同一フォルダに作成する。
+- 既にPDF, powerpointファイルがある場合は上書きする。
