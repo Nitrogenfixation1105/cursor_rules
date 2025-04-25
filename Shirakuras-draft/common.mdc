@@ -3,13 +3,3 @@ description:
 globs: 
 alwaysApply: true
 ---
-# MCPについて
-## Github
-* Owner: Nitrogenfixation1105
-* Issuesは使っていません(NotionのProjectsとTasksで運用しています)
-* Pull Requestについては以下のルールで作成されます。
-  * タイトルは、"[NotionのチケットID] タイトル" という形式で作ります。
-    例) [KUZ-10859] build non latest version firelens
-* Branch名はNotionのチケットIDです。
-    例) KUZ-10859
-

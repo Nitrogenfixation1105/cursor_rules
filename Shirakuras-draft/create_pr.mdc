@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+コードの作成が完了し、PRを作る際は以下のステップで進めてください。
+
+1. github mcpを使ってmaster branchの最新版をローカルにpullする。
+2. master branchとの差分を見て、修正すべき点がないかレビューを行う。コードの書き方、セキュリティ観点、パフォーマンス観点で行って欲しい。また、修正したmodel, service, controller, helperのRspecでのテストコードがあることを確認して欲しい。
+3. レビュー内容を私に確認してもらい、次に進めていいか承認を得る。
+4. github mcpを使ってPull Requestを作成する。なお、NotionのチケットIDが不明な場合は私にNotionのURLを聞いて、そのURLから判断すること。
+  * Owner: Nitrogenfixation1105
+  * Pull Requestについては以下のルールで作成されます。
+    * タイトルは、"[NotionのチケットID] タイトル" という形式で作ります。
+      例) [KUZ-10859] build non latest version firelens
+

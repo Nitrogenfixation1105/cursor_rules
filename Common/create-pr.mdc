@@ -1,0 +1,29 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+**Procedure for Creating a Pull Request After Completing Code Development**
+When you are ordered to make a PR, follow this procedure.
+1. Check the current status. If I am working on the master branch, tell me to move me to the feature branch.
+If I am working on the feature branch and have uncommitted changes, commit them all.
+2. Pull the latest version of the master branch to my local environment. after that return to the feature branch.
+3. Review the differences from the master branch, focusing on the following aspects:
+   - Code style
+   - Security
+   - Performance
+   - Also, ensure that there are Rspec test codes for the modified model, service, controller, and helper.
+4. Display the review results with me and obtain my approval before proceeding to the next step.
+5. Ask me for the Notion ticket URL linked to the Pull Request.
+6. Ask me for the Actual point of this task.
+7. Identify the Notion ticket ID from the URL(ticket ID is unique id provided by Notion Database. the format is KUZ-xxxx) using Notion MCP.
+8. Create a Pull Request using github mcp.
+   - Owner: Nitrogenfixation1105
+   - Please follow these rules when creating the Pull Request:
+     - The title should be in the format “[Notion Ticket ID] Title”.
+       Example: [KUZ-10859] build non latest version firelens
+9. Enter the value in the “Actual point” field of the Notion ticket.
+10. After step9, Display the rest TODO for me as follows.
+  - Enter the PR URL to the property "Github Pull Requests" in Notion ticket.
+  - Set the reviewer to the PR.
+  - Ask the reviewer to review it.
