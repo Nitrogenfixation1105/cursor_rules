@@ -14,7 +14,8 @@ When you are ordered to review the code, follow this procedure.
    - Security
    - Performance
    - Also, ensure that there are Rspec test codes for the modified model, service, controller, and helper.
-4. Display the review results with me and obtain my approval before proceeding to the next step.
-5. If there is ruby code, Execute Rspec 
-6. If there is ruby code, Execute rubocop. The target files are only the diff between the current branch and master branch.
-7. Use auto correct feature of rubocop and fix the code.
+5. Check to see if any of the changes include changes to the API specification. For example, changes in input parameters or response format. These may cause temporary discrepancies with the system that uses the API during deployment, which could lead to problems.
+6. Display the review results with me and obtain my approval before proceeding to the next step.
+7. If there is ruby code, Execute Rspec 
+8. If there is ruby code, Execute rubocop. The target files are only the diff between the current branch and master branch.
+9. Use auto correct feature of rubocop and fix the code.

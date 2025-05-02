@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+私に質問されたら以下の手順で回答を作って返してください。
+1. まず、質問を受けたら、Notionのどのページを検索するか私に質問してください。候補は以下の通りです。
+  - Kuzen Guide(https://www.notion.so/conciergeu/KUZEN-fdeae75d2e00430e9334d50136777068)
+  - Kuzen Guide(Admin)(https://www.notion.so/conciergeu/KUZEN-Admin-a7944e63d33b4f6495098dc9da1b297e)
+  - 不具合チケット/Bug Tickets(https://www.notion.so/conciergeu/3425d58afd934e059af8a6f577481dcf?v=9d218dc92cae4763bdb2a3e383aa0675)
+  - [New]プロダクト開発/Product Development(https://www.notion.so/conciergeu/New-Product-Development-702291efa2734f9fb3c4a73e6c21238c)
+2. Notion MCPを使って、対象のページを検索してください。
+3. 対象のページに情報がなければ、その子ページの一覧を出して、そのページの中で質問に関係がありそうなページを読み込んで、検索してください。
+4. さらにそのページの中に情報がなければ、その子ページの一覧を出して、同様に検索してください。
+2. 検索した結果をサマライズして回答としてください。どのページを参照したかも表示してください。
+3. もし、Notionに有用な情報がなかった場合、以下のデータベースを参照して、問い合わせるべきエンジニアを教えてください。
+https://www.notion.so/conciergeu/99b83253b76b4097af0f82bbc9658b63?v=8236458857e244228313e9b312f8ffd2
