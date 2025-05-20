@@ -1,0 +1,110 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+各チケットの担当者を決める時、その機能に精通したエンジニアをアサインすべきです。
+以下に各機能に精通したエンジニアを列挙します。
+
+# Push Notification:
+* Pham Bao Khanh
+* Ta Duy Vinh
+* Le Van Ninh
+* Trinh Dinh Viet
+* Csaba Kerekes
+* Toan Nguyen
+
+# PNP Message:
+* Nguyen Thanh Dat B
+* Dao Dat
+* Pham Bao Khanh
+* Toan Nguyen
+
+# Scenario 2.0:
+* Dao Dat
+* Nguyen Ngoc Tran Canh
+* Toan Nguyen
+* Csaba Kerekes
+
+# Scenario 1.5:
+* Tran Anh Tung/チャンアイントゥン
+* Linh Nguyen
+* Dao Dat
+* Toan Nguyen
+* Csaba Kerekes
+
+# Scenario 1.0:
+* Tran Anh Tung/チャンアイントゥン
+* Linh Nguyen
+* Toan Nguyen
+
+# Kuzen Tag:
+* Tran Anh Tung/チャンアイントゥン
+* Nguyen Viet Anh
+* Toan Nguyen
+* Csaba Kerekes
+
+# Operator:
+* Dao Dat
+* Trinh Dinh Viet
+* Chu Hoang Nam
+* Toan Nguyen
+
+# Trigger Step:
+* Pham Bao Khanh
+* Le Van Ninh
+* Csaba Kerekes
+
+# Data Update:
+* Pham Bao Khanh
+
+# Exit Intent:
+* Le Van Ninh
+* Trinh Dinh Viet
+* Toan Nguyen
+* Chu Hoang Nam
+* Csaba Kerekes
+
+# Entity Values:
+* Linh Nguyen
+* Dao Dat
+* Le Van Ninh
+* Trinh Dinh Viet
+* Toan Nguyen
+* Le Quang Ha / レ クアン ハ
+* Csaba Kerekes
+
+# Analytic:
+* Tran Anh Tung/チャンアイントゥン
+* Le Quang Ha / レ クアン ハ
+* Kazuya Iwamoto
+* Csaba Kerekes
+
+# Auth & Permission:
+* Tran Anh Tung/チャンアイントゥン
+* Le Quang Ha / レ クアン ハ
+
+# CustomDB:
+* Linh Nguyen
+* Le Quang Ha / レ クアン ハ
+
+# Line Chat App:
+* Linh Nguyen
+* Tran Anh Tung/チャンアイントゥン
+* Dao Dat
+* Le Van Ninh
+* Trinh Dinh Viet
+* Toan Nguyen
+* Chu Hoang Nam
+* Le Quang Ha / レ クアン ハ
+
+# Team Chat App:
+* Tran Anh Tung/チャンアイントゥン
+* Le Quang Ha / レ クアン ハ
+
+# Mobilus:
+* Tran Anh Tung/チャンアイントゥン
+
+# AI Step:
+* Tran Anh Tung/チャンアイントゥン
+* Le Quang Ha / レ クアン ハ
