@@ -1,0 +1,17 @@
+---
+description: Procedure for code review
+globs: 
+alwaysApply: false
+---
+**Procedure for Code review**
+When you are ordered to review the code, follow this procedure.
+
+1. Review the differences from the master branch, focusing on the following aspects.
+   - Code style
+   - Security
+   - Performance
+   - Also, ensure that there are Rspec test codes for the modified model, service, controller, and helper.
+2. Check to see if any of the changes include changes to the API specification. For example, changes in input parameters or response format. These may cause temporary discrepancies with the system that uses the API during deployment, which could lead to problems.
+3. If there is ruby code, Execute Rspec 
+4. If there is ruby code, Execute rubocop. The target files are only the diff between the current branch and master branch.
+5. Use auto correct feature of rubocop and fix the code.
